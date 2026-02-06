@@ -4,10 +4,10 @@ import yaml
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-from tiny_DDPM.Diffusion import Diffusion
-from tiny_DDPM.Utils import print_seq
-from tiny_DDPM.modules.UNet import UNet
-from tiny_DDPM.modules.DiT import DiT
+from tiny_DDPM.diffusion import Diffusion
+from tiny_DDPM.utils import print_seq
+from tiny_DDPM.modules.unet import UNet
+from tiny_DDPM.modules.dit import DiT
 
 from torchvision.datasets import MNIST
 import torchvision.transforms as transforms

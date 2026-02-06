@@ -4,7 +4,7 @@ from tqdm import tqdm
 from torch.utils.data import DataLoader
 from pathlib import Path
 
-from tiny_DDPM.modules.UNet import UNet
+from tiny_DDPM.modules.unet import UNet
 from tiny_DDPM.forward_encoder import ForwardEncoder
 from tiny_DDPM.reverse_decoder import ReverseDecoder
 from tiny_DDPM.noise_sheduler import NoiseSchedule
