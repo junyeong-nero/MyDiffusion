@@ -122,6 +122,24 @@ Generated using DDIM (`steps=10`) with Classifier-Free Guidance (`w=1.0`).
 ### Training Loss
 ![loss](./assets/loss.png)
 
+### FID / IS Evaluation
+| w | FID ↓ | IS ↑ |
+|:---:|:---:|:---:|
+| 0 | 0.3136 | 1.2592 |
+| 0.1 | 0.2514 | 1.2580 |
+| 0.2 | 0.3242 | 1.2606 |
+| 0.3 | 0.2978 | 1.2597 |
+| 0.4 | 0.3184 | 1.2592 |
+| 0.5 | 0.3794 | 1.2615 |
+| 0.6 | 0.4050 | 1.2621 |
+| 0.7 | 0.3669 | 1.2622 |
+| 0.8 | 0.3190 | 1.2557 |
+| 0.9 | 0.2998 | 1.2593 |
+| 1.0 | 0.3268 | 1.2592 |
+| 2.0 | 0.3716 | 1.2612 |
+| 3.0 | 0.4922 | 1.2659 |
+| 4.0 | 0.4016 | 1.2663 |
+
 ## 📚 References
 
 - [Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239)
